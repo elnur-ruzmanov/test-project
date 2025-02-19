@@ -27,6 +27,6 @@ public class SmokeApiTests {
                     .post("user")
                 .andReturn();
        int actualCode = respose.getStatusCode();
-        Assertions.assertEquals(200, actualCode);
+        Assertions.assertEquals(201, actualCode);
     }
 }
